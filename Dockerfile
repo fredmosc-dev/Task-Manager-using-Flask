@@ -17,7 +17,7 @@ COPY . .
 EXPOSE 5000
 
 # Defina uma variável de ambiente para rodar o Flask em modo de produção
-ENV FLASK_APP=app.py
+ENV FLASK_APP=run.py
 ENV FLASK_ENV=production
 
 # Comando para rodar o aplicativo Flask
